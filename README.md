@@ -97,7 +97,7 @@ curl -X POST "https://exchange-example.switchflow.biz/auth/login" \
 # }
 
 # 3. 발급받은 토큰을 사용하여 다른 API 호출
-curl -X GET "{서버_베이스_URL}/wallets" \
+curl -X GET "https://exchange-example.switchflow.biz/wallets" \
      -H "Authorization: Bearer ey..."
 ```
 
